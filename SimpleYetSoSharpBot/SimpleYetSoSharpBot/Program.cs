@@ -16,7 +16,7 @@ namespace SimpleYetSoSharp
     internal class Program
     {
 		//edit this if you feel like it
-        private static string[] shityousaywhenyoudead = { "lulz", "lol", "omg", "noooooob", "help me", "fkin nooooobs", "TEAM WHERE YOU AT???", "WILL YOU HELP?", "HEEEEEEEEEEEELP", "OMG REPORT MY NOOB TEAM", "OMG MY TEAM SHOULD UNINSTALL", "MATCHMAKING SO UNFAIR", "gg", "I just want this game to end fking noobs" };
+        private static string[] shityousaywhenyoudead = { "lulz", "lol", "aff", "poooo", "to com lag po", "malws aí lag n ajuda", "vo tentar ajustar aqui..", "malll", "assim é ralado", "po desculpa aí geral", "assim é difícil", "ih laia", "gg", "gg gvt" };
         private static Spell Q;
         private static Spell W;
         private static Spell E;
@@ -328,7 +328,7 @@ namespace SimpleYetSoSharp
         }
 		private static void OnGameEnd(EventArgs args)
 		{
-		Game.Say("gg");
+		Game.Say("gg valeu galera");
 		}
     }
 }
